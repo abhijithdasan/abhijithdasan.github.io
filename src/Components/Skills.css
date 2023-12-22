@@ -1,8 +1,8 @@
 .skills {
     margin: 0;
     background: black;
-    padding: ;
     position: relative;
+    color: #ffffff;
     /* background: linear-gradient(
       to bottom,
       #0F2167 0%,
@@ -26,21 +26,98 @@
     display: flex;
     align-items: center;
     height: 100%;
-    background: lightcoral;
+    /* background: lightcoral; */
 }
 .skill-box-head {
     text-align: center;
     padding-top: 40px;
-
+    margin-bottom: 15px;
+    font-size: large;
+    font-weight: bold   ;
 }
 .skill-lbox{
     position: relative;
     width: 50%;
     height: 500px;
+    text-align: center;
+    justify-content: center;
     /* background: #FFECD6; */
 }
+.skill-bar{
+    padding: 0 20px 0;
+    
+}
+.skill-name{
+    display: flex;
+    justify-content: space-between;
+}
+.bar{
+    display: flex;
+    height: 10px;
+}
+.obar{
+    background: white;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
 
+}
+.bar-1{
+    background: red;
+    width: 85%;
+    height: 10px;
+    border-radius: 5px;
+    align-items:end;
+}
+
+.bar-2{
+    background: red;
+    width: 88%;
+    height: 10px;
+    border-radius: 5px;
+    align-items:end;
+}
+
+.bar-3{
+    background: red;
+    width: 75%;
+    height: 10px;
+    border-radius: 5px;
+    align-items:end;
+}
+
+.bar-4{
+    background: red;
+    width: 73%;
+    height: 10px;
+    border-radius: 5px;
+    align-items:end;
+}
+
+.bar-5{
+    background: red;
+    width: 60%;
+    height: 10px;
+    border-radius: 5px;
+    align-items:end;
+}
+.bar-6{
+    background: red;
+    width: 89%;
+    height: 10px;
+    border-radius: 5px;
+    align-items:end;
+}
+
+.bar-7{
+    background: red;
+    width: 84%;
+    height: 10px;
+    border-radius: 5px;
+    align-items:end;
+}
 .skill-rbox{
     position: relative;
     width: 50%;
 }
+

@@ -37,7 +37,7 @@ h2 {
     height: 150px;
     width: 150px;
     padding: 80px 80px 100px 80px;
-    background: rgb(216, 39, 39);
+    background: black;
     display: inline-flex;
     align-items: center;
     flex-direction: column;
@@ -56,13 +56,13 @@ h2 {
   }
   .icon {
     position: relative;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     text-shadow: 2px 4px 2px black;
   }
   .edu-name{
     font-style: bold;
-    color: black;
+    color: red;
 
   }
   .edu-des1 {
@@ -74,6 +74,6 @@ h2 {
     text-shadow: 1px 1px 1px rgba(41, 4, 109, 0.067);
   }
   .edu-mark {
-    color: #0F2167;
+    
     font-weight: bold;
   }
