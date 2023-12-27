@@ -77,20 +77,22 @@ function Skills() {
 
           <div className='skill-circle'>
             <div className='rating'>    
-              <h2 className="circle-name"><span className='counter' data-target='90'>90</span><sup>%</sup></h2>
+              <h2 className='counter-num'><span className='counter' data-target='90'>90%</span><span className='percentage'>%</span></h2>
               <h2 className="circle-name">Team Work</h2>
-              <div className="block"></div>
+              <div className='block-box'>
+                <div className="block"></div>
+              </div>
             </div>
           </div>
 
           {/* Repeat similar blocks for other professional skills */}
-          <div className='skill-circle'>
+          {/* <div className='skill-circle'>
             <div className='rating'>    
               <h2 className="circle-name"><span className='counter' data-target='60'>60</span><sup>%</sup></h2>
               <h2 className="circle-name">Leadership</h2>
               <div className="block"></div>
             </div>
-          </div>
+          </div> */}
 
 
         </div>
