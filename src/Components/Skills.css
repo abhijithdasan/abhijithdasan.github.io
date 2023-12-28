@@ -23,8 +23,9 @@
   }
   
   .skill-box-head {
+    position: relative;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
     margin-bottom: 15px;
     font-size: large;
     font-weight: bold;
@@ -119,89 +120,5 @@
     position: relative;
     width: 50%;
     /* background: pink; */
-  }
-  
-  .skill-circle {
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-  }
-  
-  .rating {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
-  .counter{
-    position: absolute;
-  }
-
-  .block {
-    position: absolute;
-    /* justify-items: left; */
-    width: 1px;
-    height: 15px;
-    
-    background: #fff;
-    transform-origin: 50% 75px;
-    transform: rotate(0deg);
-    opacity: 0;
-    animation: animate 0.1s linear forwards;
-  }
-
-  .circle-name{
-    position: absolute;
-    /* top: 50%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
-    color: #fff;
-    font-size: 1.2em;
-    font-weight: 500;
-    text-align: center;
-    line-height: 1.5em;
-    
-  }
-  
-  .rating  {
-   
-    width: 100%;
-    height: 100px;
-   
-    opacity: 0;
-    animation: animate 0.1s linear forwards;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 1.2em;
-    font-weight: 500;
-     /* left: 5%; */
-    /* background: #fff; */
-    /* transform-origin: 50% 75px; */
-    /* transform: rotate(0deg); */
-    /* text-align: center; */
-     /* left: 5%; */
-    /* background: #fff; */
-    /* transform-origin: 50% 75px; */
-    /* transform: rotate(0deg); */
-    line-height: 1.5em;
-  }
-  
-  @keyframes animate {
-    to {
-      opacity: 1;
-    }
-  }
-  .rating .block:nth-child(-n+91){
-    background:red;
-    /* box-shadow: 0 0 5px #3559E0; */
-  }
- 
-  
-  .rating .circle-name .counter {
-    font-size: 2.5em;
-    font-weight: 700;
   }
   
