@@ -3,6 +3,9 @@
     height: 100%;
     width: 100%;
     color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
 }
 .project-head {
@@ -11,4 +14,18 @@
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
+}
+.pro-card{
+    /* position: absolute; */
+    margin: 30px;
+    display: inline-flex;
+    height: 15rem;
+    width: 26rem;
+    background: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s;
+}
+.pro-card:hover {
+    box-shadow: 0 8px 16px 0 #3559E0;
 }
