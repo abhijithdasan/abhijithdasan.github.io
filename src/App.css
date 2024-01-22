@@ -43,10 +43,18 @@ h1 {
   list-style-type: none;
   color: white;
   cursor: pointer;
+  transition: 0.3s;
   }
+
+  .nav-link:hover {
+    color: red;
+  }
+  
 .word-spn {
   color: red;
   }
+
+
 
 
 /* Home Page*/
