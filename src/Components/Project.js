@@ -41,7 +41,7 @@ function Project (){
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste,
                      voluptatum, quia explicabo 
                 </p>
-                <button href="#" className ="proj-btn">
+                <button href="#" className ="pro-btn">
                          <strong>Code</strong>
                 </button>
                 <button href="#" className ="pro-btn">
