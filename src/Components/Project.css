@@ -63,7 +63,7 @@ p {
 
 
 &:hover h2 {
-        inset: auto 10px 190px 30px;
+        inset: auto 25px 190px 30px;
         transition: inset .3s ease-out;
         opacity: 1;
       }
