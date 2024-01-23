@@ -112,3 +112,9 @@ p {
     background:white;
     color: black;
   }
+
+.footer-space{
+  position: relative;
+  height: 70px;
+  width: 100%q;
+}

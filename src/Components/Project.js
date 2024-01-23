@@ -99,6 +99,7 @@ function Project (){
                          <strong>Demo</strong>
                 </button>
             </div>
+            <div className='footer-space'></div>
         </div>
     );
 }
