@@ -3,6 +3,14 @@ import './Project.css';
 import travelsImage from '../Images/travels.png';
 
 function Project (){
+
+    const handleCode = () => {
+        
+        window.open (
+             'https://github.com/abhijithdasan', '_blank'
+             );
+         
+      };
     return (
         <div className='project'>
             <div className='project-head'>PROJECTS</div>
@@ -13,10 +21,10 @@ function Project (){
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste,
                      voluptatum, quia explicabo 
                 </p>
-                <button href="#" className ="pro-btn">
+                <button onClick={handleCode} className ="pro-btn">
                          <strong>Code</strong>
                 </button>
-                <button href="#" className ="pro-btn">
+                <button onClick={handleCode} className ="pro-btn">
                          <strong>Demo</strong>
                 </button>
             </div>
@@ -27,10 +35,10 @@ function Project (){
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste,
                      voluptatum, quia explicabo 
                 </p>
-                <button href="#" className ="pro-btn">
+                <button onClick={handleCode} className ="pro-btn">
                          <strong>Code</strong>
                 </button>
-                <button href="#" className ="pro-btn">
+                <button onClick={handleCode} className ="pro-btn">
                          <strong>Demo</strong>
                 </button> 
             </div>
@@ -41,10 +49,10 @@ function Project (){
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste,
                      voluptatum, quia explicabo 
                 </p>
-                <button href="#" className ="pro-btn">
+                <button onClick={handleCode} className ="pro-btn">
                          <strong>Code</strong>
                 </button>
-                <button href="#" className ="pro-btn">
+                <button onClick={handleCode} className ="pro-btn">
                          <strong>Demo</strong>
                 </button>
             </div>
@@ -55,10 +63,10 @@ function Project (){
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste,
                      voluptatum, quia explicabo 
                 </p>
-                <button href="#" className ="pro-btn">
+                <button onClick={handleCode} className ="pro-btn">
                          <strong>Code</strong>
                 </button>
-                <button href="#" className ="pro-btn">
+                <button onClick={handleCode} className ="pro-btn">
                          <strong>Demo</strong>
                 </button>
                 
@@ -70,10 +78,10 @@ function Project (){
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste,
                      voluptatum, quia explicabo 
                 </p>
-                <button href="#" className ="pro-btn">
+                <button onClick={handleCode} className ="pro-btn">
                          <strong>Code</strong>
                 </button>
-                <button href="#" className ="pro-btn">
+                <button onClick={handleCode} className ="pro-btn">
                          <strong>Demo</strong>
                 </button>
             </div>
@@ -84,10 +92,10 @@ function Project (){
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste,
                      voluptatum, quia explicabo 
                 </p>
-                <button href="#" className ="pro-btn">
+                <button onClick={handleCode} className ="pro-btn">
                          <strong>Code</strong>
                 </button>
-                <button href="#" className ="pro-btn">
+                <button onClick={handleCode} className ="pro-btn">
                          <strong>Demo</strong>
                 </button>
             </div>
