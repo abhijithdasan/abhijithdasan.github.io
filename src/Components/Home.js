@@ -2,6 +2,11 @@ import '../App.css'
 import mainImage from '../Images/main-img.png';
 
 function Home() {
+    const handleDownloadCV = () => {
+        // Redirect to the specified URL
+        window.location.href =
+          'https://drive.google.com/drive/u/0/folders/15prT8cJfvXyxBFKZEwfmLRoKLX3Civ5O';
+      };
     return (
         <div className = "home">
             <div className = "home-des">
@@ -18,7 +23,7 @@ function Home() {
                     <p className = "contact-des contact-des1">+91 9446228946</p>
                 </div>
                 <div className="btn">
-                    <button href="#" className ="custom-btn btn-15">
+                <button className="custom-btn btn-15" onClick={handleDownloadCV}>
                          <strong>Download CV</strong>
             
                     </button>
