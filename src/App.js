@@ -4,6 +4,7 @@ import Home from './Components/Home';
 import Education from './Components/Education';
 import Skills from './Components/Skills';
 import Project from './Components/Project';
+import Contact from './Components/Contact';
 //import { Route , Routes } from 'react-router-dom';
 
 
@@ -16,6 +17,7 @@ function App() {
         <Education />
         <Skills />
         <Project />
+        <Contact />
 
        
     </div>
