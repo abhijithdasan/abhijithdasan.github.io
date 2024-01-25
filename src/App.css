@@ -46,7 +46,7 @@ h1 {
   transition: 0.3s;
   }
 
-  .nav-link:hover {
+  .nav-light:hover {
     color: red;
   }
   

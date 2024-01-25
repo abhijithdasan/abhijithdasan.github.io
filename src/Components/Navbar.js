@@ -23,30 +23,30 @@ function Navbar(){
         <div>
           <ul className = "nav-item">
             <li
-              className="nav-link"
+              className="nav-link nav-light"
               target="_blank"
               rel="noopener noreferrer">Home
             </li>
             <li
-              className="nav-link"
+              className="nav-link nav-light"
               target="_blank"
               rel="noopener noreferrer">
               Education
             </li>
             <li
-              className="nav-link"
+              className="nav-link nav-light"
               target="_blank"
               rel="noopener noreferrer">
               Skills
             </li>
             <li
-              className="nav-link"
+              className="nav-link nav-light"
               target="_blank"
               rel="noopener noreferrer">
               Projects
             </li>
             <li
-              className="nav-link"
+              className="nav-link nav-light"
           
               rel="noopener noreferrer">
               Contact
