@@ -12,7 +12,7 @@ function Project (){
          
       };
     return (
-        <div className='project'>
+        <div id='projects' className='project'>
             <div className='project-head'>PROJECTS</div>
             <div className ='pro-card'>
                 <h2 className = "pro-title">QR Generator</h2>

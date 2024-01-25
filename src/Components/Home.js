@@ -8,7 +8,7 @@ function Home() {
           'https://drive.google.com/drive/u/0/folders/15prT8cJfvXyxBFKZEwfmLRoKLX3Civ5O';
       };
     return (
-        <div className = "home">
+        <div id="home" className = "home">
             <div className = "home-des">
                 <div className = "main-des">
                     <h1 className = "des-name">Hi! I'm Abhijith Dasan</h1>

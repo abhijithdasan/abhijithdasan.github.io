@@ -4,8 +4,10 @@ import { faGraduationCap, faSchool, faBook } from '@fortawesome/free-solid-svg-i
 import '../App.css'
 import './Education.css'
 function Education (){
+
+    
     return (
-        <div className = "edu">
+        <div id="education" className = "edu">
             <div className = "edu-main">
                 <p className= "edu-head">EDUCATION</p>
                 <div className = "edu-box">

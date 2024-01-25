@@ -1,4 +1,6 @@
 .skills {
+  height: 100%;
+  width: 100%;
     margin: 0;
     background: black;
     position: relative;
@@ -7,7 +9,7 @@
   
   .skills-head {
     position: relative;
-    padding: 35px 0 40px 0;
+    padding: 45px 0 40px 0;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;

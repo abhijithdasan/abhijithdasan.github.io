@@ -54,6 +54,15 @@ h1 {
   color: red;
   }
 
+  .a-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  .a-link.active {
+  color: red; /* Change this to your desired color */
+}
+
+
 
 
 

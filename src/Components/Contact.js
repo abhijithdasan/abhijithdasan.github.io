@@ -9,7 +9,7 @@ import { faWhatsapp, faFacebook, faInstagram, faLinkedin, faTwitter, faHackerran
 
 function Contact() {
     return (
-        <div className='conatct'>
+        <div id='contact' className='conatct'>
             <div className='con-heading'>
                 CONTACT
             </div>
