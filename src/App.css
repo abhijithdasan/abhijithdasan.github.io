@@ -86,7 +86,7 @@ h1 {
       );*/
     background: black;
   height: 100%;
-  display: flex;
+  display: inline-flex;
   position: relative;
 }
 
@@ -97,6 +97,7 @@ h1 {
 
 .home-img {
   width: 50%;
+  display: flex;
   /* margin-left: 50%; */
   position: relative;
   right: 0;
@@ -117,7 +118,7 @@ h1 {
   background: transparent;
   padding: 100px 100px 0 0;
   margin: 155px 0 0 100px;
-  position: absolute;
+  position: relative;
   height: 180px;
   z-index: 1;
   width: 240px;
@@ -162,7 +163,7 @@ h1 {
 
 .home-des {
   width: 50%;
-  padding: 0 20px 0 100px;
+  padding: 0 90px 0 90px;
   position: relative;
   left: 0;
 }
@@ -199,43 +200,7 @@ h1 {
 .contact-des1{
   margin-bottom: 80px;
 }
-/* .btn-box {
-  display: flex;
-  justify-content: space-between;
-  width: 320px;
-  height: 45px;
-}
-.btn {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 100%;
-  background: #4CB9E7;
-  color: #0F2167;
-  font-size: 1rem;
-  letter-spacing: 1px;
-  font-weight: 600;
-  transition: .6s;
-  box-shadow: #144272;
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  bottom: 2px solid var(--hover-color);
-}
-  
-.btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: red;
-  width: 0;
-  height: 100%;
-  z-index: -1;
-  transition: .4s;
-} */
+
 .custom-btn {
   width: 130px;
   height: 40px;
