@@ -16,7 +16,7 @@ function Education (){
                         <h2>SRM UNIVERSITY, CHENNAI</h2>
                     </div>
                     <p className='edu-des edu-des1'>B.Tech Computer Science and Eng.</p>
-                    <p className='edu-mark'><strong>8.42 cgpa</strong></p>
+                    <p className='edu-mark'><strong>8.75 cgpa</strong></p>
                 </div>
                 
                 <div className = "edu-box">
