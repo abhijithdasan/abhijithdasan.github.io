@@ -5,7 +5,7 @@ function Home() {
     const handleDownloadCV = () => {
         // Redirect to the specified URL
         window.location.href =
-          'https://drive.google.com/drive/u/0/folders/15prT8cJfvXyxBFKZEwfmLRoKLX3Civ5O';
+          'https://resume.io/r/Rm9Arc1Wn';
       };
     return (
         <div id="home" className = "home">
