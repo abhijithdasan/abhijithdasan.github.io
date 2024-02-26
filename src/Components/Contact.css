@@ -10,6 +10,7 @@ h3 {
     background: black;
     height: 110vh;
     width: 100%;
+
 }
 .con-heading {
     position: relative;
@@ -21,8 +22,8 @@ h3 {
 }
 
 .cont-box{
-    position: relative;
-    display: inline-flex;
+    
+    display: flex;
 }
 
 .abt-me {

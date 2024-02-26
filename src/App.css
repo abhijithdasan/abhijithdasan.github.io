@@ -29,8 +29,19 @@ h1 {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   
 }
-@media screen and (min-width: 767px){
-  
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items vertically */
+  }
+
+  .nav-item {
+    margin-top: 10px; /* Add margin between items */
+  }
+
+  .nav-link {
+    padding: 10px; /* Increase padding for touch-friendly areas */
+  }
 }
 @media (max-width: 600px) {
   body{
@@ -42,11 +53,21 @@ h1 {
   .home{
     height: 100%;
     width: 100%;
-    padding: 0;
+    padding: 0 0px 0px 0;
     
+  }
+  .home-img{
+    width: 0;
   }
   .home-des{
     padding: 0 10px 0 10px;
     width: 100%;
   }
+  .skill-box{
+    flex-direction: column;
+}
+.left-container{
+  width: 100%;
+}
   }
+  

@@ -40,8 +40,7 @@ function Skills() {
           <Skill name="HTML / CSS" percentage={90} />
           <Skill name="Javascript" percentage={80} />
           <Skill name="React.js" percentage={75} />
-          <Skill name="Node.js" percentage={70} />
-          <Skill name="Express.js" percentage={70} />
+          <Skill name="Node.js / Express.js" percentage={70} />
           <Skill name="C / C++" percentage={80} />
           <Skill name="Python" percentage={75} />
           <Skill name="Django" percentage={65} />
@@ -51,13 +50,22 @@ function Skills() {
         </div>
         <div className='right-container'>
           <div className='skill-box-head'>PROFESSIONAL SKILLS</div>
-          <Skill name="Team Work" percentage={90} isCircular />
-          <Skill name="Leadership" percentage={87} isCircular />
-          <Skill name="Creativity" percentage={88} isCircular />
-          <Skill name="Communication" percentage={85} isCircular />
-          <Skill name="Problem Solving" percentage={88} isCircular />
-          <Skill name="Project management" percentage={75} isCircular />
+          <div className='circle-box'>
+            <div className='progress-circle'>
+            <Skill name="Team Work" percentage={90} isCircular /></div>
+            <div className='progress-circle'>
+            <Skill name="Leadership" percentage={87} isCircular /></div>
+            <div className='progress-circle'>
+            <Skill name="Creativity" percentage={88} isCircular /></div>
+            <div className='progress-circle'>
+            <Skill name="Communication" percentage={85} isCircular /></div>
+            <div className='progress-circle'>
+            <Skill name="Problem Solving" percentage={88} isCircular /></div>
+            <div className='progress-circle'>
+            <Skill name="Project management" percentage={75} isCircular /></div>
+          </div>
         </div>
+
       </div>
     </div>
   );
