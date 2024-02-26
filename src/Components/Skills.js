@@ -37,17 +37,17 @@ function Skills() {
       <div className='skill-box'>
         <div className='left-container'>
           <div className='skill-box-head'>TECHNICAL SKILLS</div>
-          <Skill name="HTML / CSS" percentage={85} />
-          <Skill name="Javascript" percentage={78} />
+          <Skill name="HTML / CSS" percentage={90} />
+          <Skill name="Javascript" percentage={80} />
           <Skill name="React.js" percentage={75} />
           <Skill name="Node.js" percentage={70} />
           <Skill name="Express.js" percentage={70} />
           <Skill name="C / C++" percentage={80} />
           <Skill name="Python" percentage={75} />
           <Skill name="Django" percentage={65} />
-          <Skill name="MySQL" percentage={70} />
-          <Skill name="DSA" percentage={65} />
-          <Skill name="Excel" percentage={60} />
+          <Skill name="SQL" percentage={70} />
+          {/* <Skill name="DSA" percentage={65} />
+          <Skill name="Excel" percentage={60} /> */}
         </div>
         <div className='right-container'>
           <div className='skill-box-head'>PROFESSIONAL SKILLS</div>

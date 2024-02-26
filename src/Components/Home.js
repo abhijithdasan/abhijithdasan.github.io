@@ -1,3 +1,4 @@
+import './Home.css'
 import '../App.css'
 import mainImage from '../Images/main-img.png';
 

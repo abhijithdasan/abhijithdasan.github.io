@@ -1,5 +1,5 @@
 import './Contact.css'
-
+import '../App.css'
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faLocationDot, faCopyright, faCode } from '@fortawesome/free-solid-svg-icons';
@@ -9,7 +9,7 @@ import { faWhatsapp, faFacebook, faInstagram, faLinkedin, faTwitter, faHackerran
 
 function Contact() {
     return (
-        <div id='contact' className='conatct'>
+        <div id='contact' className='contact'>
             <div className='con-heading'>
                 CONTACT
             </div>

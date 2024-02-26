@@ -2,6 +2,7 @@
 // eslint-disable-next-line jsx-a11y/anchor-is-valid
 import React, { useState, useEffect } from 'react';
 import '../App.css';
+import './Navbar.css';
 
 function Navbar() {
   const [activeSection, setActiveSection] = useState('home');
@@ -12,7 +13,7 @@ function Navbar() {
     const skillsSection = document.getElementById('skills');
     const projectsSection = document.getElementById('projects');
     const contactSection = document.getElementById('contact');
-    // Add more sections as needed
+    
 
     const scrollPosition = window.scrollY;
 

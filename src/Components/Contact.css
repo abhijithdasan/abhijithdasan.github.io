@@ -6,9 +6,9 @@ h3 {
       font-size: large;
       font-weight: bold;
   }
-.conatct{
+.contact{
     background: black;
-    height: 100%;
+    height: 110vh;
     width: 100%;
 }
 .con-heading {
@@ -61,3 +61,5 @@ h3 {
     padding-bottom: 10px;
     padding-bottom: 30px;
 }
+
+
