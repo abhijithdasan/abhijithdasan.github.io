@@ -3,7 +3,7 @@ import mainImage from '../Images/main-img.png';
 
 function Home() {
     const handleDownloadCV = () => {
-        // Redirect to the specified URL
+        // Redirect to the specified URL for the resume
         window.location.href =
           'https://drive.google.com/file/d/1t-zeIMYq0LGUAOepH7JoPmGD9ckO91XY/view?usp=sharing';
       };
