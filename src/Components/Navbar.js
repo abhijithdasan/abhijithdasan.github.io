@@ -5,6 +5,7 @@ import '../App.css';
 import './Navbar.css';
 
 function Navbar() {
+  
   const [activeSection, setActiveSection] = useState('home');
 
   const handleScroll = () => {
@@ -128,6 +129,7 @@ function Navbar() {
             className={`nav-link a-link nav-light ${
               activeSection === 'contact' ? 'active' : ''
             }`}
+            
             onClick={() => scrollToSection('contact')}
           >
             Contact
