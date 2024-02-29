@@ -1,11 +1,17 @@
+:root {
+  --main-color: black; /* This is your color code */
+}
 .home {
     width: 100%;
   
     padding-bottom: 130px;
-    background: black;
-    height: 100vh;
+    background: var(--main-color);
+    height: 100%;
     display: inline-flex;
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
   
   /* right side*/
@@ -30,7 +36,7 @@
     align-items: center;
   }
   
-  .liquid-shape {
+  /* .liquid-shape {
     align-items: center;
     background: transparent;
     padding: 100px 100px 0 0;
@@ -76,7 +82,7 @@
     100% {
       transform: scale(10);
     }
-  } 
+  }  */
   
   .home-des {
     width: 50%;
